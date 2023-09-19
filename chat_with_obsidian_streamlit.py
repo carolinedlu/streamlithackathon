@@ -1,12 +1,8 @@
 import streamlit as st
 import zipfile
 import os
-import huggingface_hub
 
 # 1. Import necessary libraries
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
-from langchain.llms import GPT4All
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.document_loaders import ObsidianLoader
 from langchain.vectorstores import Chroma
