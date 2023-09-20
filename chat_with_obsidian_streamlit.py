@@ -1,5 +1,5 @@
 import streamlit as st
-import zipfile
+import zipfile36
 import os
 
 # 1. Import necessary libraries
